@@ -13,7 +13,6 @@ public class ZhLemonMusic extends JavaPlugin {
     @Override
     public void onEnable() {
         DiscManager.prepareAllResourcePacks(this);
-        DiscManager.registerAllDiscs();
 
         getServer().getPluginManager().registerEvents(new JoinListener(), this);
         getServer().getPluginManager().registerEvents(new JukeboxListener(), this);}

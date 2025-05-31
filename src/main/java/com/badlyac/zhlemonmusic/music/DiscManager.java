@@ -33,6 +33,7 @@ public class DiscManager {
     }
 
     public static void prepareAllResourcePacks(JavaPlugin plugin) {
+        registerAllDiscs();
         File baseFolder = new File(plugin.getDataFolder(), "resourcepack");
         if (!baseFolder.exists()) baseFolder.mkdirs();
 

@@ -1,0 +1,6 @@
+name: ZhLemonMusic
+version: 1.0
+author: BadlyacX
+description: ZhLemonMusic
+api-version: '1.21.4'
+main: com.badlyac.zhlemonmusic.ZhLemonMusic

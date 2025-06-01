@@ -17,7 +17,7 @@ public class KasugaShadowDisc extends AbstractMusicDisc {
 
     @Override
     public long getCooldownMillis() {
-        return 1000 * 256;
+        return 1000 * 257;
     }
 
     @Override

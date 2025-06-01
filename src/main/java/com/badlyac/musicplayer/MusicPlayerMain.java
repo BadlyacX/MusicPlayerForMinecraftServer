@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class MusicPlayerMain extends JavaPlugin {
 
     public static byte[] resourcePackSha1;
-    public static String resourcePackUrl = "https://raw.githubusercontent.com/BadlyacX/zh_lemon/main/music.zip";
+    public static String resourcePackUrl = "https://raw.githubusercontent.com/BadlyacX/MusicPlayerForMinecraftServer/master/src/main/resources/music.zip\n";
 
     @Override
     public void onEnable() {

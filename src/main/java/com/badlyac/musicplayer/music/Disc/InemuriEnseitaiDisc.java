@@ -17,7 +17,7 @@ public class InemuriEnseitaiDisc extends AbstractMusicDisc {
 
     @Override
     public long getCooldownMillis() {
-        return 1000 * 218;
+        return 1000 * 219;
     }
 
     @Override

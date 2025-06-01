@@ -17,7 +17,7 @@ public class InsideJokeDisc extends AbstractMusicDisc {
 
     @Override
     public long getCooldownMillis() {
-        return 1000 * 255;
+        return 1000 * 256;
     }
 
     @Override

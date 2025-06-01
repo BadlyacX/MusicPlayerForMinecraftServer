@@ -16,7 +16,7 @@ public class GoBigDisc extends AbstractMusicDisc {
 
     @Override
     public long getCooldownMillis() {
-        return 1000 * 209;
+        return 1000 * 210;
     }
 
     @Override

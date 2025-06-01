@@ -51,7 +51,7 @@ public class JukeboxListener implements Listener {
                 block.getLocation(),
                 handler.getSoundKey(),
                 SoundCategory.RECORDS,
-                2.0f,
+                1.3f,
                 1.0f
         );
 

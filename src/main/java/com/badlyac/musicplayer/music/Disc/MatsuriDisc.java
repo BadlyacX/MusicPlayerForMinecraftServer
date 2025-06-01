@@ -17,7 +17,7 @@ public class MatsuriDisc extends AbstractMusicDisc {
 
     @Override
     public long getCooldownMillis() {
-        return 1000 * 225;
+        return 1000 * 226;
     }
 
     @Override

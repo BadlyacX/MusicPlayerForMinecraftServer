@@ -1,4 +1,4 @@
-package com.badlyac.zhlemonmusic.music;
+package com.badlyac.musicplayer.music;
 
 public abstract class AbstractMusicDisc implements IMusicDisc {
     private byte[] sha1;

@@ -1,6 +1,6 @@
-package com.badlyac.zhlemonmusic.listener;
+package com.badlyac.musicplayer.listener;
 
-import com.badlyac.zhlemonmusic.ZhLemonMusic;
+import com.badlyac.musicplayer.MusicPlayerMain;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -12,12 +12,12 @@ public class JoinListener implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
 
-        if (ZhLemonMusic.resourcePackSha1 == null) {
+        if (MusicPlayerMain.resourcePackSha1 == null) {
             player.sendMessage("§cresource pack did not load. Please contact the author");
             return;
         }
 
-        player.setResourcePack(ZhLemonMusic.resourcePackUrl, ZhLemonMusic.resourcePackSha1);
+        player.setResourcePack(MusicPlayerMain.resourcePackUrl, MusicPlayerMain.resourcePackSha1);
         player.sendMessage("§aloading resource pack...🍋");
     }
 }

@@ -1,6 +1,6 @@
-package com.badlyac.zhlemonmusic.music.Disc;
+package com.badlyac.musicplayer.music.Disc;
 
-import com.badlyac.zhlemonmusic.music.AbstractMusicDisc;
+import com.badlyac.musicplayer.music.AbstractMusicDisc;
 import org.bukkit.Material;
 
 public class ZhLemonDisc extends AbstractMusicDisc {
@@ -23,6 +23,6 @@ public class ZhLemonDisc extends AbstractMusicDisc {
 
     @Override
     public String getResourcePackFileName() {
-        return "zh_lemon.zip";
+        return "music.zip";
     }
 }

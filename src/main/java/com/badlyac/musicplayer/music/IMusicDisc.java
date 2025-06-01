@@ -1,4 +1,4 @@
-package com.badlyac.zhlemonmusic.music;
+package com.badlyac.musicplayer.music;
 
 import org.bukkit.Material;
 

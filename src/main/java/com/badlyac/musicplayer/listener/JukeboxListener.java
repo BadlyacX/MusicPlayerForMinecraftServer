@@ -1,7 +1,7 @@
-package com.badlyac.zhlemonmusic.listener;
+package com.badlyac.musicplayer.listener;
 
-import com.badlyac.zhlemonmusic.music.DiscManager;
-import com.badlyac.zhlemonmusic.music.IMusicDisc;
+import com.badlyac.musicplayer.music.DiscManager;
+import com.badlyac.musicplayer.music.IMusicDisc;
 import org.bukkit.Material;
 import org.bukkit.SoundCategory;
 import org.bukkit.block.Block;
@@ -51,7 +51,7 @@ public class JukeboxListener implements Listener {
                 block.getLocation(),
                 handler.getSoundKey(),
                 SoundCategory.RECORDS,
-                1.0f,
+                2.0f,
                 1.0f
         );
 

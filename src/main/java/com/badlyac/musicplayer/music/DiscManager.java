@@ -1,8 +1,9 @@
-package com.badlyac.zhlemonmusic.music;
+package com.badlyac.musicplayer.music;
 
-import com.badlyac.zhlemonmusic.ZhLemonMusic;
-import com.badlyac.zhlemonmusic.music.Disc.ZhLemonDisc;
-import com.badlyac.zhlemonmusic.utils.ResourcePackUtils;
+import com.badlyac.musicplayer.MusicPlayerMain;
+import com.badlyac.musicplayer.music.Disc.GoBigDisc;
+import com.badlyac.musicplayer.music.Disc.ZhLemonDisc;
+import com.badlyac.musicplayer.utils.ResourcePackUtils;
 import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -21,6 +22,7 @@ public class DiscManager {
 
     public static void registerAllDiscs() {
         register(new ZhLemonDisc());
+        register(new GoBigDisc());
     }
 
     private static void register(IMusicDisc handler) {
@@ -48,21 +50,21 @@ public class DiscManager {
                         continue;
                     }
                     Files.copy(in, zipFile.toPath());
-                    ZhLemonMusic.resourcePackSha1 = ResourcePackUtils.computeSha1(zipFile);
+                    MusicPlayerMain.resourcePackSha1 = ResourcePackUtils.computeSha1(zipFile);
                     plugin.getLogger().info("resource pack copied: " + zipName);
                 } catch (IOException e) {
                     plugin.getLogger().warning("encountered error while copying resource pack: " + e.getMessage());
                 }
             }
 
-            ZhLemonMusic.resourcePackSha1 = ResourcePackUtils.computeSha1(zipFile);
-            if (ZhLemonMusic.resourcePackSha1 == null) {
+            MusicPlayerMain.resourcePackSha1 = ResourcePackUtils.computeSha1(zipFile);
+            if (MusicPlayerMain.resourcePackSha1 == null) {
                 plugin.getLogger().warning("SHA-1 compute failed：" + zipName);
                 continue;
             }
 
             if (disc instanceof AbstractMusicDisc) {
-                ((AbstractMusicDisc) disc).setSha1(ZhLemonMusic.resourcePackSha1);
+                ((AbstractMusicDisc) disc).setSha1(MusicPlayerMain.resourcePackSha1);
             }
         }
     }

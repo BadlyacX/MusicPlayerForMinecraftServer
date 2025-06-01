@@ -1,8 +1,7 @@
 package com.badlyac.musicplayer.music;
 
 import com.badlyac.musicplayer.MusicPlayerMain;
-import com.badlyac.musicplayer.music.Disc.GoBigDisc;
-import com.badlyac.musicplayer.music.Disc.ZhLemonDisc;
+import com.badlyac.musicplayer.music.Disc.*;
 import com.badlyac.musicplayer.utils.ResourcePackUtils;
 import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -23,6 +22,10 @@ public class DiscManager {
     public static void registerAllDiscs() {
         register(new ZhLemonDisc());
         register(new GoBigDisc());
+        register(new InemuriEnseitaiDisc());
+        register(new InsideJokeDisc());
+        register(new KasugaShadowDisc());
+        register(new MatsuriDisc());
     }
 
     private static void register(IMusicDisc handler) {

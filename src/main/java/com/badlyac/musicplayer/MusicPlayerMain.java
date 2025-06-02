@@ -20,7 +20,5 @@ public class MusicPlayerMain extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new JukeboxListener(), this);
     }
 
-    public static JavaPlugin getInstance() {
-        return instance;
-    }
+    public static JavaPlugin getInstance() { return instance; }
 }

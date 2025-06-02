@@ -1,0 +1,991 @@
+[21:55:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:55:32] [ServerMain/INFO]: Loaded 1370 recipes
+[21:55:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[21:55:32] [Server thread/INFO]: Loading properties
+[21:55:32] [Server thread/INFO]: This server is running CraftBukkit version 4458-Spigot-73860e0-fb3f2b6 (MC: 1.21.4) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[21:55:34] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[21:55:34] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[21:55:34] [Server thread/INFO]: Debug logging is disabled
+[21:55:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:55:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:55:34] [Server thread/INFO]: Default game type: SURVIVAL
+[21:55:34] [Server thread/INFO]: Generating keypair
+[21:55:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:55:34] [Server thread/INFO]: Using default channel type
+[21:55:34] [Server thread/INFO]: [ZhLemonMusic] Loading ZhLemonMusic v1.0
+[21:55:34] [Server thread/INFO]: Preparing level "world"
+[21:55:34] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:55:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:55:34] [Server thread/INFO]: View Distance: 10
+[21:55:34] [Server thread/INFO]: Simulation Distance: 10
+[21:55:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:55:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:55:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:55:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:55:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:55:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:55:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:55:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:55:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:55:34] [Server thread/INFO]: Max TNT Explosions: 100
+[21:55:34] [Server thread/INFO]: Mob Spawn Range: 6
+[21:55:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:55:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:55:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:55:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:55:34] [Server thread/INFO]: View Distance: 10
+[21:55:34] [Server thread/INFO]: Simulation Distance: 10
+[21:55:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:55:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:55:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:55:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:55:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:55:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:55:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:55:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:55:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:55:34] [Server thread/INFO]: Max TNT Explosions: 100
+[21:55:34] [Server thread/INFO]: Mob Spawn Range: 6
+[21:55:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:55:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:55:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:55:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:55:34] [Server thread/INFO]: View Distance: 10
+[21:55:34] [Server thread/INFO]: Simulation Distance: 10
+[21:55:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:55:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:55:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:55:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:55:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:55:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:55:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:55:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:55:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:55:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:55:34] [Server thread/INFO]: Max TNT Explosions: 100
+[21:55:34] [Server thread/INFO]: Mob Spawn Range: 6
+[21:55:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:55:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:55:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:55:35] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:55:35] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:55:36] [Worker-Main-7/INFO]: Preparing spawn area: 51%
+[21:55:36] [Worker-Main-7/INFO]: Preparing spawn area: 51%
+[21:55:37] [Worker-Main-7/INFO]: Preparing spawn area: 51%
+[21:55:37] [Worker-Main-6/INFO]: Preparing spawn area: 51%
+[21:55:38] [Worker-Main-15/INFO]: Preparing spawn area: 51%
+[21:55:38] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[21:55:39] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[21:55:39] [Worker-Main-13/INFO]: Preparing spawn area: 51%
+[21:55:40] [Worker-Main-10/INFO]: Preparing spawn area: 51%
+[21:55:40] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[21:55:40] [Server thread/INFO]: Time elapsed: 5861 ms
+[21:55:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:55:40] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[21:55:41] [Worker-Main-4/INFO]: Preparing spawn area: 51%
+[21:55:41] [Worker-Main-10/INFO]: Preparing spawn area: 51%
+[21:55:42] [Worker-Main-18/INFO]: Preparing spawn area: 51%
+[21:55:42] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[21:55:43] [Worker-Main-13/INFO]: Preparing spawn area: 51%
+[21:55:43] [Worker-Main-13/INFO]: Preparing spawn area: 53%
+[21:55:43] [Server thread/INFO]: Time elapsed: 3052 ms
+[21:55:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:55:43] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[21:55:44] [Worker-Main-18/INFO]: Preparing spawn area: 51%
+[21:55:44] [Server thread/INFO]: Time elapsed: 719 ms
+[21:55:44] [Server thread/INFO]: [ZhLemonMusic] Enabling ZhLemonMusic v1.0
+[21:55:45] [Server thread/INFO]: [ZhLemonMusic] resource pack copied: music.zip
+[21:55:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:55:46] [Server thread/INFO]: Done (11.380s)! For help, type "help"
+[21:56:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 0/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 1/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 2/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 3/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 4/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 5/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 6/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 7/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 8/10
+[21:56:46] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2507274328108727162.dat -> .\world\level.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:617) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:604) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:952) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:856) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:890) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.bD(MinecraftServer.java:1425) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1379) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:56:46] [Server thread/WARN]: Failed to execute rename .\world\level2507274328108727162.dat to .\world\level.dat
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, retrying 9/10
+[21:56:46] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2507274328108727162.dat, aborting, progress might be lost
+[21:59:40] [User Authenticator #1/INFO]: UUID of player IamBADlyAC is 4e987f2e-cd3c-48fb-8996-ec63feb13639
+[21:59:41] [Server thread/INFO]: IamBADlyAC joined the game
+[21:59:41] [Server thread/INFO]: IamBADlyAC[/127.0.0.1:54006] logged in with entity id 28 at ([world]-5.5, 83.0, 7.5)
+[21:59:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[22:00:04] [Server thread/INFO]: Made IamBADlyAC a server operator
+[22:00:07] [Server thread/INFO]: IamBADlyAC issued server command: /gamemode creative
+[22:00:07] [Server thread/INFO]: [IamBADlyAC: Set own game mode to Creative Mode]
+[22:00:49] [Server thread/INFO]: IamBADlyAC lost connection: Disconnected
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 0/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 1/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 2/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 3/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 4/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 5/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 6/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 7/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 8/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat -> .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat: 程序無法存取檔案，因為檔案正由另一個程序使用。
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, retrying 9/10
+[22:00:49] [Server thread/ERROR]: Failed to replace .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat with .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639-3738013984336810474.dat, aborting, progress might be lost
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 0/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 1/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 2/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 3/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 4/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 5/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 6/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 7/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 8/10
+[22:00:49] [Server thread/ERROR]: Failed to rename
+java.nio.file.NoSuchFileException: .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:345) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.SystemUtils$5.getAsBoolean(SourceFile:770) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:835) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:845) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:881) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.SystemUtils.a(SourceFile:855) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.world.level.storage.WorldNBTStorage.a(WorldNBTStorage.java:48) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.b(PlayerList.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:472) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4458-Spigot-73860e0-fb3f2b6]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:00:49] [Server thread/WARN]: Failed to execute rename .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old to .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, retrying 9/10
+[22:00:49] [Server thread/ERROR]: Failed to restore .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat from .\world\playerdata\4e987f2e-cd3c-48fb-8996-ec63feb13639.dat_old, aborting, progress might be lost
+[22:00:49] [Server thread/INFO]: IamBADlyAC left the game
+[22:01:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[22:01:08] [Server thread/INFO]: Stopping the server
+[22:01:08] [Server thread/INFO]: Stopping server
+[22:01:08] [Server thread/INFO]: [ZhLemonMusic] Disabling ZhLemonMusic v1.0
+[22:01:08] [Server thread/INFO]: Saving players
+[22:01:09] [Server thread/INFO]: Saving worlds
+[22:01:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:01:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:01:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:01:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:01:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:01:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:01:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

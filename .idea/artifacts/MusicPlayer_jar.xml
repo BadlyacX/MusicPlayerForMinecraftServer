@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MusicPlayer.jar">
+    <output-path>$PROJECT_DIR$/server/plugins</output-path>
+    <root id="archive" name="ZhLemonMusic.jar">
+      <element id="module-output" name="ZhLemonMusic" />
+    </root>
+  </artifact>
+</component>

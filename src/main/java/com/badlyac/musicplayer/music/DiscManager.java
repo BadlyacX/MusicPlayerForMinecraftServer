@@ -20,14 +20,14 @@ public class DiscManager {
     private static final List<IMusicDisc> allDiscs = new ArrayList<>();
 
     public static void registerAllDiscs() {
-        register(new ZhLemonDisc());
-        register(new GoBigDisc());
-        register(new InemuriEnseitaiDisc());
-        register(new InsideJokeDisc());
-        register(new KasugaShadowDisc());
-        register(new MatsuriDisc());
-    }
 
+    register(new ZhLemonDisc());
+    register(new GoBigDisc());
+    register(new InemuriEnseitaiDisc());
+    register(new InsideJokeDisc());
+    register(new KasugaShadowDisc());
+    register(new MatsuriDisc());
+}
     private static void register(IMusicDisc handler) {
         handlerMap.put(handler.getDisc(), handler);
         allDiscs.add(handler);

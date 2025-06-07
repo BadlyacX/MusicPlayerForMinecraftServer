@@ -1,23 +1,22 @@
-package com.badlyac.musicplayer.music.Disc;
+package com.badlyac.musicplayer.music.disc;
 
 import com.badlyac.musicplayer.music.AbstractMusicDisc;
 import org.bukkit.Material;
 
-public class InemuriEnseitaiDisc extends AbstractMusicDisc {
-
+public class GoBigDisc extends AbstractMusicDisc {
     @Override
     public Material getDisc() {
-        return Material.MUSIC_DISC_BLOCKS;
+        return Material.MUSIC_DISC_CAT;
     }
 
     @Override
     public String getSoundKey() {
-        return "custom.inemuri_enseitai";
+        return "custom.go_big";
     }
 
     @Override
     public long getCooldownMillis() {
-        return 1000 * 219;
+        return 1000 * 210;
     }
 
     @Override

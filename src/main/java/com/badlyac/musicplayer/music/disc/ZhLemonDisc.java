@@ -1,23 +1,24 @@
-package com.badlyac.musicplayer.music.Disc;
+package com.badlyac.musicplayer.music.disc;
 
 import com.badlyac.musicplayer.music.AbstractMusicDisc;
 import org.bukkit.Material;
 
-public class KasugaShadowDisc extends AbstractMusicDisc {
+public class ZhLemonDisc extends AbstractMusicDisc {
 
     @Override
     public Material getDisc() {
-        return Material.MUSIC_DISC_MALL;
+        return Material.MUSIC_DISC_13;
     }
 
     @Override
     public String getSoundKey() {
-        return "custom.kasuga_shadow";
+        return "custom.zh_lemon";
     }
 
     @Override
     public long getCooldownMillis() {
-        return 1000 * 257;
+        int seconds = 144;
+        return 1000 * seconds;
     }
 
     @Override

@@ -1,7 +1,7 @@
 package com.badlyac.musicplayer.music;
 
 import com.badlyac.musicplayer.MusicPlayerMain;
-import com.badlyac.musicplayer.music.Disc.*;
+import com.badlyac.musicplayer.music.disc.*;
 import com.badlyac.musicplayer.utils.ResourcePackUtils;
 import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;

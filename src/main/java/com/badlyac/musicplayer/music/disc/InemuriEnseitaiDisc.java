@@ -1,24 +1,23 @@
-package com.badlyac.musicplayer.music.Disc;
+package com.badlyac.musicplayer.music.disc;
 
 import com.badlyac.musicplayer.music.AbstractMusicDisc;
 import org.bukkit.Material;
 
-public class ZhLemonDisc extends AbstractMusicDisc {
+public class InemuriEnseitaiDisc extends AbstractMusicDisc {
 
     @Override
     public Material getDisc() {
-        return Material.MUSIC_DISC_13;
+        return Material.MUSIC_DISC_BLOCKS;
     }
 
     @Override
     public String getSoundKey() {
-        return "custom.zh_lemon";
+        return "custom.inemuri_enseitai";
     }
 
     @Override
     public long getCooldownMillis() {
-        int seconds = 144;
-        return 1000 * seconds;
+        return 1000 * 219;
     }
 
     @Override

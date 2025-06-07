@@ -1,4 +1,4 @@
-package com.badlyac.musicplayer.music.Disc;
+package com.badlyac.musicplayer.music.disc;
 
 import com.badlyac.musicplayer.music.AbstractMusicDisc;
 import org.bukkit.Material;

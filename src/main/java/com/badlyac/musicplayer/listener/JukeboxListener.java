@@ -50,11 +50,11 @@ public class JukeboxListener implements Listener {
 
         event.setCancelled(true);
         block.getWorld().playSound(
-                block.getLocation(),
-                handler.getSoundKey(),
-                SoundCategory.RECORDS,
-                1.3f,
-                1.0f
+                block.getLocation(),             // BlockLocation
+                handler.getSoundKey(),           // SoundKey
+                SoundCategory.RECORDS,           // category
+                2.0f,                            // volume
+                1.0f                             // pitch 音調
         );
 
         playingMap.put(block, new PlayingMusicInfo(now, handler));
